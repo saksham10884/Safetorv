@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/saksham10884/Safetorv/",
+  "homepage": "https://github.com/saksham10884/Safetorv",
   "name": "password-manager",
   "private": true,
   "version": "0.0.0",
@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build": "vite build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build  && cp build/index.html build/404.html",
     "lint": "eslint .",
     "preview": "vite preview"
   },
