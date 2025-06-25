@@ -2,12 +2,12 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Main from './components/main'
-import {createBrowserRouter,RouterProvider} from "react-router-dom"
+import {createHashRouter,RouterProvider} from "react-router-dom"
 import About from "./components/About"
 import Contact from "./components/Contact"
 
 function App() {
-  const router=createBrowserRouter([
+  const router=createHashRouter([
     {
       path:"",
       element:<><Navbar/><Main/><Footer/></>
