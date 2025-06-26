@@ -18,11 +18,11 @@ const Main = () => {
 
     const showpassword = () => {
         if (ref.current.src.includes("/visible.png")) {
-            ref.current.src = "/close-eye.png"
+            ref.current.src = "close-eye.png"
             setinputtype("password")
         }
         else {
-            ref.current.src = '/visible.png'
+            ref.current.src = 'visible.png'
             setinputtype("text")
         }
     }
