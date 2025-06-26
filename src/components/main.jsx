@@ -65,8 +65,8 @@ const Main = () => {
         setpasswordlist(passwordlist.filter(item => { return item.id != e }))
     }
     return (
-        <div className="justify-items-center px-2">
-            <div className="upperbody w-1/2 flex flex-col items-center">
+        <div className="justify-items-center px-2 justify-self-center">
+            <div className="upperbody w-1/2 flex flex-col items-center justify-self-center">
                 <img src="logo/cyber-crime.png" className="w-14 justify-self-center topimg" alt="" />
                 <h1 className="text-white mb-5 text-center font-bold">Your own password manager</h1>
                 <input value={form.site} className=" rounded-full w-full mb-3 block px-3 p-1" placeholder="Enter Website URL" type="text" name="site" onChange={handleChange} />
