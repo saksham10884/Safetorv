@@ -9,7 +9,7 @@ import Contact from "./components/Contact"
 function App() {
   const router=createHashRouter([
     {
-      path:"",
+      path:"/",
       element:<><Navbar/><Main/><Footer/></>
     },
     {
